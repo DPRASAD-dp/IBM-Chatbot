@@ -19,19 +19,30 @@ Before you begin, ensure you have met the following requirements:
 
 1. Open the script file.
 
-2. Replace `'Enter your API key here.'` with your actual IBM Cloud API key.
+2. Replace `'Enter your API key here.'` with your actual IBM Cloud API key.While creating your IBM account and API key keep the location as Dallas to access  more features from IBM.
 
 3. Replace `'Enter your generated token here.'` in the `Authorization` header with your generated Bearer token. Make sure to keep the word 'Bearer' at the beginning.
 
 ## Usage
 
-1. Run the script:
-   `python your_script_name.py`
+### Step 1: Generate IAM Token
+
+1. Run the token generator script: `python BearerTokenGenerator.py`
+
+2. The script will output a generated token. Copy this token.
+
+### Step 2: Use the Text Generation API
+
+1. Open the text generation script.
+
+2. Replace `'Enter your generated token here.'` in the `Authorization` header with your copied token. Make sure to keep the word 'Bearer' at the beginning.
+
+3. Run the text generation script: `python ibm_text_generationfinal.py`
 
 
-2. When prompted, enter your query about carbon footprint.
+4. When prompted, enter your query about carbon footprint.
 
-3. The script will send your query to the IBM Watson AI model and display the response.
+5. The script will send your query to the IBM Watson AI model and display the response.
 
 ## How It Works
 
