@@ -14,6 +14,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this repository to your local machine.
 
 2. Install the required Python packages:
+   
    pip install ibm_watson
    pip install requests
 
