@@ -13,10 +13,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository to your local machine.
 
-2. Install the required Python packages:
-   
-   pip install ibm_watson
-   pip install requests
+2. Install the required Python packages:  `pip install ibm_watson` and `pip install requests`
 
 ## Configuration
 
@@ -29,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 
 1. Run the script:
-   python your_script_name.py
+   `python your_script_name.py`
 
 
 2. When prompted, enter your query about carbon footprint.
